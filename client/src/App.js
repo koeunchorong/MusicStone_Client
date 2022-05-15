@@ -5,6 +5,7 @@ import BuyToken from "./pages/BuyToken";
 import { Musician, MusicianInfo } from "./pages/Musician";
 import { MyStone, BuyStone, TradeStone } from "./pages/Stones";
 import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 import "./App.css";
 import { useSelector, useDispatch } from "react-redux";
 import { RegisterAlbum } from "./pages/RegisterAlbum";
@@ -68,6 +69,7 @@ function App() {
           <Route path="/playlist" element={<PlayList />} />
         </Routes>
       </Router>
+      <Footer />
     </div>
   );
 }

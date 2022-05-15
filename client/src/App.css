@@ -2,6 +2,35 @@ body {
   background-color: #0f0f0f;
   color: white;
 }
+hr {
+  background-color: #333333;
+  margin: 8rem 5rem;
+}
+@font-face {
+  font-family: "bitfont";
+  src: url("./fonts/VITRO_Font_TTF/비트로 코어 TTF.ttf");
+}
+.maintxt {
+  font-family: "bitfont";
+  font-size: 8rem;
+  margin-left: 10rem;
+}
+.foootericon {
+  vertical-align: middle;
+  margin-left: 2px;
+}
+.f {
+  margin-top: 5rem;
+}
+.footer {
+  text-align: center;
+}
+.mainimg {
+  float: right;
+  margin-top: -30rem;
+  margin-right: 15rem;
+  width: 30rem;
+}
 a:link {
   color: rgb(255, 255, 255);
 }
@@ -213,11 +242,6 @@ a:active {
   width: 10rem;
   margin: 2rem;
   vertical-align: middle;
-}
-.mainimg {
-  text-align: center;
-  vertical-align: middle;
-  width: 20rem;
 }
 .membername {
   font-weight: bolder;

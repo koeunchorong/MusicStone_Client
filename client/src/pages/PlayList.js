@@ -73,9 +73,24 @@ export function PlayList() {
 
   const handleStreaming = async (e) => {
     console.log(audioRef.current.currentTime);
+    // if (
+    //   audioRef.current.currentTime > 59.9 &&
+    //   60.3 > audioRef.current.currentTime
+    // ) {
+    //   if (remainToken < 1) {
+    //     audioRef.current.currentTime = 0;
+    //   } else {
+    //     await axios
+    //       .post(`${server}/playlist/streaming/${stoneId}`, { userId: userId })
+    //       .then((res) => {
+    //         console.log(res.data);
+    //         getPlayList();
+    //       });
+    //   }
+    // }
     if (
-      audioRef.current.currentTime > 59.9 &&
-      60.3 > audioRef.current.currentTime
+      audioRef.current.currentTime > 4.9 &&
+      5.2 > audioRef.current.currentTime
     ) {
       if (remainToken < 1) {
         audioRef.current.currentTime = 0;

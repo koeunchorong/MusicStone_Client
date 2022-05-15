@@ -119,6 +119,7 @@ function BuyToken() {
       })
       .then((data) => {
         console.log(data);
+        GetBalance();
       })
       .catch((err) => {
         console.log(err);
