@@ -48,7 +48,7 @@ export function Musician() {
   };
 
   const handleInputEnter = (e) => {
-    if (e.key == "Enter") {
+    if (e.key === "Enter") {
       search();
     }
   };
