@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/MusicStone_Client/precache-manifest.1b7dfe012f2816802712c6192bfffc1e.js"
+  "/MusicStone_Client/main/precache-manifest.bb52b4034fac2e14b26610d500f2a2ab.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/MusicStone_Client/index.html", {
+workbox.routing.registerNavigationRoute("/MusicStone_Client/main/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
