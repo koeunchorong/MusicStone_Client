@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "ddf19443f57ec80eeb53",
+    "revision": "217c14fd1569ab0b9a98",
     "url": "/MusicStone_Client/static/css/main.155b2fce.chunk.css"
   },
   {
-    "revision": "ddf19443f57ec80eeb53",
-    "url": "/MusicStone_Client/static/js/main.5807c6d8.chunk.js"
+    "revision": "217c14fd1569ab0b9a98",
+    "url": "/MusicStone_Client/static/js/main.89e155ba.chunk.js"
   },
   {
     "revision": "aaae86ed42357114831a",
@@ -24,12 +24,12 @@ self.__precacheManifest = [
     "url": "/MusicStone_Client/static/media/musicstonelogo.78bf8c8f.png"
   },
   {
-    "revision": "d41f55a78e6f49a5512878df1737e58a",
-    "url": "/MusicStone_Client/static/media/slick.d41f55a7.ttf"
-  },
-  {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
     "url": "/MusicStone_Client/static/media/slick.b7c9e1e4.woff"
+  },
+  {
+    "revision": "d41f55a78e6f49a5512878df1737e58a",
+    "url": "/MusicStone_Client/static/media/slick.d41f55a7.ttf"
   },
   {
     "revision": "ced611daf7709cc778da928fec876475",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/MusicStone_Client/static/media/비트로 코어 TTF.17f36e20.ttf"
   },
   {
-    "revision": "1a82e193d4bcc722e288501966a788d7",
+    "revision": "697e50f1e9c22c00ec63a3a1a877d329",
     "url": "/MusicStone_Client/index.html"
   }
 ];
